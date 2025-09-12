@@ -43,7 +43,7 @@ public class TestCase_GIThub_script1 {
             oBrowser.findElement(By.xpath("//a[@id='logoutLink']")).click();
             Thread.sleep(2000);
             System.out.println("mahesh reddyu");
-            System.out.println("************************************");
+            System.out.println("*******************************");
             System.out.println("*****************************");
 
             if (oBrowser.getCurrentUrl().equals("http://localhost/login.do")
