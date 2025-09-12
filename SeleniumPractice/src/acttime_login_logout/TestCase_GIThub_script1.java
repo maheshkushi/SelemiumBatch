@@ -7,9 +7,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TestCase_GIThub_script1 {
     public static void main(String[] args) {
-        testScriptOne();
+        testCaseOne();
     }
-    public static void testScriptOne() {
+    public static void testCaseOne() {
         WebDriver oBrowser = null;
         try {
             //1. Open browser
@@ -43,6 +43,8 @@ public class TestCase_GIThub_script1 {
             oBrowser.findElement(By.xpath("//a[@id='logoutLink']")).click();
             Thread.sleep(2000);
             System.out.println("mahesh reddyu");
+            System.out.println("*******************************");
+            System.out.println("*****************************");
 
             if (oBrowser.getCurrentUrl().equals("http://localhost/login.do")
                     && oBrowser.getTitle().equals("actiTIME - Login")
