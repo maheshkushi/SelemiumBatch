@@ -25,6 +25,8 @@ public class Assignment1 {
             oAction.moveToElement(oBrowser.findElement(By.xpath("//span[text()='Fashion']/.."))).perform();
             Thread.sleep(2000);
 
+            System.out.println("modification done");
+
             oBrowser.findElement(By.xpath("//a[text()='All']")).click();
 
         }catch(Exception e){
