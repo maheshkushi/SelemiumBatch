@@ -5,8 +5,8 @@ import java.util.Map;
 
 public class Testscript extends  ResuableMethods{
     public static void main(String[] args) {
-        TS_LoginLogout();
-        //create_user();
+        //TS_LoginLogout();
+        create_user();
     }
     public static void TS_LoginLogout(){
         WebDriver oBrowers=null;

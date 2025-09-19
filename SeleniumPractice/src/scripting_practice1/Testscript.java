@@ -1,4 +1,4 @@
-package automation_practice1;
+package scripting_practice1;
 
 import org.openqa.selenium.WebDriver;
 
